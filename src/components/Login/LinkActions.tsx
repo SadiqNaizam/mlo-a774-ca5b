@@ -1,3 +1,4 @@
+```typescript
 import React from 'react';
 import { cn } from '@/lib/utils';
 
@@ -9,7 +10,7 @@ const LinkActions: React.FC<LinkActionsProps> = ({ className }) => {
   return (
     <div className={cn('text-center text-sm text-gray-500', className)}>
       {"Don't have an account? "}
-      <a href="#" className="font-semibold text-primary hover:underline">
+      <a href="/signup" className="font-semibold text-primary hover:underline">
         SignUp
       </a>
     </div>
@@ -17,3 +18,4 @@ const LinkActions: React.FC<LinkActionsProps> = ({ className }) => {
 };
 
 export default LinkActions;
+```
